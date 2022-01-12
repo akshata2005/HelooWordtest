@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Hello
+namespace Helloword3
 {
     public class FlipCoin
     {
