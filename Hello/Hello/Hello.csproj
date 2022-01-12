@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B0446FEC-F932-4B81-850C-A18B523C3BC0}</ProjectGuid>
+    <ProjectGuid>{C5FD617D-4317-47A2-9677-4ABA27284102}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Helloword1</RootNamespace>
-    <AssemblyName>Helloword1</AssemblyName>
+    <RootNamespace>Hello</RootNamespace>
+    <AssemblyName>Hello</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,12 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FibonacciSeries.cs" />
-    <Compile Include="FlipCoin.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReplaceWord.cs" />
-    <Compile Include="SwapTwoNumbers.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
